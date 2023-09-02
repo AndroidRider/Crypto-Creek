@@ -7,7 +7,7 @@
     android:id="@+id/watchListFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/recycler_item">
+    android:background="@color/recycler_item2">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout5"

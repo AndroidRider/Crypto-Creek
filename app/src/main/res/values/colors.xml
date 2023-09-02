@@ -4,18 +4,46 @@
     <color name="white">#FFFFFFFF</color>
 
     // 1st perfect combination
-        <color name="green">#4FC281</color>
-        <color name="red">#C62828</color>
-        <color name="statusBarColor">@color/background</color>
-        <color name="spinKitColor">@color/white</color>
-        <color name="recycler_item">#023469</color>
-        <color name="background">#022046</color>
 
-        <color name="ColorTopLossGain1">#022046</color>
-        <color name="ColorTopLossGain2">#1099f9</color>
+<!--    <color name="green">#00C853</color>-->
+<!--    <color name="red">#D50000</color>-->
+<!--    <color name="statusBarColor">@color/background</color>-->
+<!--    <color name="spinKitColor">@color/white</color>-->
+<!--    <color name="recycler_item">#023469</color>-->
+<!--    <color name="background">#022046</color>-->
 
-        <color name="bottom_bar_color">#FEF1F1</color>
-        <color name="text_color">#400014</color>
-        <color name="indicator_color">#F8C3C8</color>
+<!--    <color name="ColorTopLossGain1">#022046</color>-->
+<!--    <color name="ColorTopLossGain2">#1099f9</color>-->
+
+<!--    <color name="bottom_bar_color">#FEF1F1</color>-->
+<!--    <color name="text_color">#400014</color>-->
+<!--    <color name="indicator_color">#F8C3C8</color>-->
+
+    <!-- ********************************************************************************************** -->
+
+    <color name="ColorTopLossGain1">#022046</color>
+    <color name="ColorTopLossGain2">#1099f9</color>
+
+    <color name="green">#00C853</color>
+    <color name="red">#D50000</color>
+
+    <color name="statusBarColor">@color/background</color>
+    <color name="spinKitColor">@color/black</color>
+
+    <color name="recycler_item1">@color/white</color>
+    <color name="recycler_item2">@color/white</color>
+    <color name="background">#E8E8E8</color>
+
+    <color name="search_bg">@color/white</color>
+
+    <color name="text1">@color/black</color>// white
+    <color name="text2">@color/black</color>
+    <color name="text3">#eafeff</color>
+
+    <color name="bottom_bar_background">#b4eef2</color>
+    <color name="bottom_bar_text">@color/black</color>
+    <color name="bottom_bar_indicator_color">#A6DEE1</color>
+
+
 
 </resources>

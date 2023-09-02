@@ -6,13 +6,13 @@
         android:title="Home"
         app:showAsAction="always"
         android:enabled="true"
-        android:icon="@drawable/baseline_home"/>
+        android:icon="@drawable/ic_home"/>
 
     <item android:id="@+id/marketFragment"
         android:title="Market"
         app:showAsAction="always"
         android:enabled="true"
-        android:icon="@drawable/ic_stats"/>
+        android:icon="@drawable/ic_status"/>
 
     <item android:id="@+id/watchlistFragment"
         android:title="Watchlist"

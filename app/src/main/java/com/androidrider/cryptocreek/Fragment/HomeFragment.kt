@@ -32,8 +32,7 @@ class HomeFragment : Fragment() {
     private lateinit var bannerViewPager: ViewPager2 // banner slide
     private lateinit var bannerAdapter: BannerAdapter // banner slide
     private val imageResources = intArrayOf(
-        R.drawable.banner, R.drawable.banner1, R.drawable.banner2,
-        R.drawable.banner3, R.drawable.banner4, R.drawable.banner5)
+        R.drawable.banner, R.drawable.banner1, R.drawable.banner2)
     // Auto-slide related variables
     private val handler = Handler(Looper.getMainLooper())
     private val delay = 3000 // Delay in milliseconds between auto-slides

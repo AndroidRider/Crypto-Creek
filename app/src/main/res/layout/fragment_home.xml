@@ -48,6 +48,7 @@
             android:id="@+id/constraintLayout3"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:background="#fff"
             app:layout_constraintBottom_toTopOf="@id/contentViewPager"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/constraintLayout2"
@@ -69,6 +70,7 @@
             android:id="@+id/constraintLayout2"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:background="#fff"
             app:layout_constraintBottom_toTopOf="@id/contentViewPager"
             app:layout_constraintEnd_toStartOf="@+id/constraintLayout3"
             app:layout_constraintStart_toStartOf="parent"
@@ -96,7 +98,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:tabIndicator="@null"
             app:tabSelectedTextColor="@color/white"
-            app:tabTextColor="#7AFFFFFF" />
+            app:tabTextColor="@color/text1" />
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/contentViewPager"

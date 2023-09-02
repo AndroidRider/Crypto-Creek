@@ -57,10 +57,10 @@ class DetailsFragment : Fragment() {
     private fun addToWatchList(data: CryptoCurrency) {
         readData()
         watchListIsChecked = if (watchList!!.contains(data.symbol)){
-            binding.addWatchlistButton.setImageResource(R.drawable.ic_star)
+            binding.addWatchlistButton.setImageResource(R.drawable.ic_bookmark_filled)
             true
         }else{
-            binding.addWatchlistButton.setImageResource(R.drawable.ic_star_outline)
+            binding.addWatchlistButton.setImageResource(R.drawable.ic_bookmark)
             false
         }
 
@@ -71,11 +71,11 @@ class DetailsFragment : Fragment() {
                         watchList!!.add(data.symbol)
                     }
                     storeData()
-                    binding.addWatchlistButton.setImageResource(R.drawable.ic_star)
+                    binding.addWatchlistButton.setImageResource(R.drawable.ic_bookmark_filled)
                     Toast.makeText(requireContext(), "Added", Toast.LENGTH_SHORT).show()
                     true
                 }else{
-                    binding.addWatchlistButton.setImageResource(R.drawable.ic_star_outline)
+                    binding.addWatchlistButton.setImageResource(R.drawable.ic_bookmark)
                     watchList!!.remove(data.symbol)
                     storeData()
                     Toast.makeText(requireContext(), "Removed", Toast.LENGTH_SHORT).show()
