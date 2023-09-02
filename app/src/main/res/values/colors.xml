@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    // 1st perfect combination
+        <color name="green">#4FC281</color>
+        <color name="red">#C62828</color>
+        <color name="statusBarColor">@color/background</color>
+        <color name="spinKitColor">@color/white</color>
+        <color name="recycler_item">#023469</color>
+        <color name="background">#022046</color>
+
+        <color name="ColorTopLossGain1">#022046</color>
+        <color name="ColorTopLossGain2">#1099f9</color>
+
+        <color name="bottom_bar_color">#FEF1F1</color>
+        <color name="text_color">#400014</color>
+        <color name="indicator_color">#F8C3C8</color>
+
+</resources>
