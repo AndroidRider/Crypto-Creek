@@ -72,7 +72,7 @@ Efficient navigation is achieved through Android's standard navigation component
 
 * Personalize your experience by creating and managing watchlists.
 
-<p>4. <b>DStay Informed:</b></p>
+<p>4. <b>Stay Informed:</b></p>
 
 * Receive real-time updates and alerts to make informed decisions in the cryptocurrency market.
   
