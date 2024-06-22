@@ -41,13 +41,16 @@ class DetailsFragment : Fragment() {
         // Inflate the layout for this fragment
 
         binding = FragmentDetailsBinding.inflate(layoutInflater)
+
         detailRecyclerView = binding.detailRecyclerView
         val data : CryptoCurrency = item.data!!
         setupDetails(data)
         loadChart(data)
         setButtonOnClick(data)
-        addToWatchList(data)
         loadData()
+
+        addToWatchList(data)
+
         return binding.root
     }
 
@@ -100,6 +103,7 @@ class DetailsFragment : Fragment() {
         val type = object : TypeToken<ArrayList<String>>(){}.type
         watchList = gson.fromJson(json, type)
     }
+
 
     private fun setButtonOnClick(item: CryptoCurrency) {
         val fifteenMinute = binding.button5
